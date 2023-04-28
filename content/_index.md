@@ -22,7 +22,6 @@
 
 <video style="border: 10px solid #23B0FF;" autoplay loop muted width="100%">
     <source src="/img/Roblox_Preview.mp4" type="video/mp4" />
-    <source src="Path To webm Video" type="video/webm" />
 </video>                
 <div >
     <img src="path to Image" alt="">
