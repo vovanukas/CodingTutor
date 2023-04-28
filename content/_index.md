@@ -23,10 +23,6 @@
 <video style="border: 10px solid #23B0FF;" autoplay loop muted playsinline width="100%">
     <source src="/img/Roblox_Preview.mp4" type="video/mp4" />
 </video>                
-<div >
-    <img src="path to Image" alt="">
-</div>
-<!-- If Videos are not supported this image will act as cover image-->
 </div>
 
 <--->
