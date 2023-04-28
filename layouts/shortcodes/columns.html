@@ -1,0 +1,48 @@
+{{ $rows := split .Inner "<--->" }}
+{{ $widths := .Get "widths" | default "70% 30%" }}
+{{ $align := .Get "align" | default "middle" }}
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create columns that float next to each other */
+.row {
+  display: flex;
+  align-items: {{ $align }};
+}
+
+.column {
+  padding: 10px;
+}
+
+/* Set column widths */
+{{ $colWidths := split $widths " " }}
+{{ range $i, $w := $colWidths }}
+  .column:nth-child({{ add $i 1 }}) {
+    flex: 0 0 {{ $w }};
+  }
+{{ end }}
+
+/* Responsive layout - make columns stack on top of each other */
+@media screen and (max-width: 950px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+  }
+}
+
+</style>
+
+<div class="row">
+  {{ $numCols := len $rows }}
+  {{ range $i, $col := $rows }}
+    <div class="column{{ if eq $i 0 }} first{{ end }}{{ if eq $i (sub $numCols 1) }} last{{ end }}">
+      {{ . | markdownify }}
+    </div>
+  {{ end }}
+</div>

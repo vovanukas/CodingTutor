@@ -1,0 +1,88 @@
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+  <style>
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+      margin-top: 50px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 10px solid #23B0FF;
+      padding: 10px;
+      height: auto;
+    }
+
+    .swiper-slide img {
+      display: block;
+      margin: auto;
+      object-fit: cover;
+      max-height: 50px;
+    }
+  </style>
+
+  <!-- Swiper -->
+<div style="margin-top: 0px" class="swiper groupsSwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img style="max-height: 150px; width: 25%; margin-right: 10px" src="https://cdn-icons-png.flaticon.com/512/2936/2936774.png" alt="">
+      <div class="slide-text">
+        <h3 style="margin-top: 0px">Share your passion and collaborate!</h3>
+        <p>Group Classes</p>
+        <p>
+          <b>⁃ Small classes with no more than 5 kids.</b><br><br>
+          <b>⁃ Kids learn to create projects as a team.</b><br><br>
+          <b>⁃ Expert tutors, who support group learning.</b><br><br>
+          <b>⁃ Personalized reports after every lesson.</b>
+        </p>
+        <p align="center"><button type="button" onclick="window.location.href='/contact';">Learn more!</button></p>
+      </div>
+    </div>
+    <div class="swiper-slide">
+      <img style="max-height: 150px; width: 25%; margin-right: 10px" src="https://cdn-icons-png.flaticon.com/512/851/851973.png" alt="">
+      <div class="slide-text">
+        <h3 style="margin-top: 0px">Amazing outcomes, at your pace!</h3>
+        <p>Individual Classes</p>
+        <p>
+          <b>⁃ Private, 1-1 tutor sessions.</b><br><br>
+          <b>⁃ Personalized curriculum according to your interests.</b><br><br>
+          <b>⁃ Expert tutor, who supports your growth.</b><br><br>
+          <b>⁃ Personalized reports after every lesson.</b>
+        </p>
+        <p align="center"><button type="button" onclick="window.location.href='/contact';">Learn more!</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".groupsSwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        900: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+      },
+        autoplay: {
+          delay: 3000,
+        },
+    });
+  </script>
