@@ -20,7 +20,7 @@
 
 <div class="video-container">
 
-<video style="border: 10px solid #23B0FF;" autoplay loop muted width="100%">
+<video style="border: 10px solid #23B0FF;" autoplay loop muted playsinline width="100%">
     <source src="/img/Roblox_Preview.mp4" type="video/mp4" />
 </video>                
 <div >
