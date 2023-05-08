@@ -1,7 +1,7 @@
 ---
 title: Scratch
 author: "Length - 16 hours :: Ages - 6 to 12"
-description: Our program will offer a variety of engaging activities including problem-solving, cartoon creation, and coding exercises. Students will have the opportunity to develop and showcase their own projects, which can be shared with parents, friends, and other students throughout the course. Through our curriculum, students will gain mastery of key concepts in computer logic, including loops, conditions, functions, and operators. Our assignments are intentionally designed to inspire creativity and promote innovative thinking.
+description: Our program will offer a variety of engaging activities including problem-solving, cartoon creation, and coding exercises.
 ---
 
 {{<columns widths="50%" align="center">}}
@@ -21,6 +21,8 @@ description: Our program will offer a variety of engaging activities including p
 <center><button type="button" onclick="window.location.href='/contact#trial';">Sign up for a FREE trial class!</button></center></p>
 {{</columns>}}
 
+{{<swiper-projects-scratch>}}
+
 | Module                    | Learning Goal                                         |
 |---------------------------|-------------------------------------------------------|
 | Module 1 \| First Steps   | L01: First look at Scratch interface                  |
@@ -28,6 +30,4 @@ description: Our program will offer a variety of engaging activities including p
 | Module 3 \| Coding Logic  | L03: Learn the fundamentals of programming            |
 | Module 4 \| Game Creation | L04: Combine design and coding to create your games   |
 | Module 5 \| Final Project | L05: Present your final project and publish your game |
-
-{{<swiper-projects-scratch>}}
 

@@ -1,7 +1,7 @@
 ---
 title: Roblox
 author: "Length - 16 hours :: Ages - 10 to 17"
-description: Join our Roblox game development course and learn how to use the LUA programming language to create your own games. This course provides students with the tools to design and model their own 3D locations and objects. Along the way, students will learn about variables, conditional expressions, loops, functions, and arrays, providing them with the necessary programming skills to take their game design to the next level.
+description: Join our Roblox game development course and learn how to use the LUA programming language to create your own games.
 ---
 
 {{<columns widths="50%" align="center">}}
@@ -21,6 +21,8 @@ description: Join our Roblox game development course and learn how to use the LU
 <center><button type="button" onclick="window.location.href='/contact#trial';">Sign up for a FREE trial class!</button></center></p>
 {{</columns>}}
 
+{{<swiper-projects-roblox>}}
+
 | Module                      | Learning Goal                                           |
 |-----------------------------|---------------------------------------------------------|
 | Module 1 \| First Steps     | L01: Get comfortable building in Roblox Studio          |
@@ -29,5 +31,4 @@ description: Join our Roblox game development course and learn how to use the LU
 | Module 4 \| Game Creation   | L04: Combine areas of Roblox expertise to create a game |
 | Module 5 \| Final Project   | L05: Present your final project and publish your game   |
 
-{{<swiper-projects-roblox>}}
 
