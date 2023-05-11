@@ -1,13 +1,13 @@
 items:
-  - title: Google Anaytics
+  - title: Google Analytics
     description: This code gives us insight into the number of people that visit our website, where they are from and what they are clicking on. We follow the guidelines of the Dutch Government, which describe how to use Google Analytics without requiring explicit consent.
     is_functional: false
     script_file: ga.js
   - title: Crisp
-    description: This plugin let's us chat with our visitors and see which countries they are from.
+    description: This plugin lets us chat with our visitors and see which countries they are from.
     is_functional: false
     script_file: crisp.js
   - title: Clarity
-    description: A behavioral analytics tool that turns user interactions into visual insights.
+    description: A behavioural analytics tool that turns user interactions into visual insights.
     is_functional: true
     script_file: clarity.js

@@ -19,7 +19,7 @@ author:
 
 <--->
 <center><h2>We provide real experience</h2>
-<p>We created our course in a way that let's students work on real projects, tackling real issues. This enhances employability and confidence of our alumni.</p>
+<p>We created our course in a way that lets students work on real projects, tackling real issues. This enhances employability and confidence of our alumni.</p>
 </center>
 {{</columns>}}
 
