@@ -1,5 +1,6 @@
 ---
 ---
+
 {{<columns widths="60%" align="center">}}
 <h1 style="font-size:2.25rem">Building Future <span style="color:#23B0FF">Innovators</span>;</h1>
 <h1 style="font-size:2.25rem">One Line of <span style="color:#23B0FF">Code</span> at a Time</h1>
