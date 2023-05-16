@@ -1,6 +1,7 @@
 ---
 title: Thanks for sending us a message!
 author: We will reply to you soon!
+draft: true
 ---
 
 <div class="post-content">
