@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: */plugins/
-Disallow: */js/
-Disallow: */node_modules/
-Disallow: /contact/thank-you/
-Sitemap: https://codiblox.com/sitemap.xml

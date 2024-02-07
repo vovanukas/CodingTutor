@@ -1,0 +1,9 @@
+enabled: true
+id: "brands"
+
+content:
+  title: "We provide a safe and encouraging learning environment"
+  items:
+    - "images/brands-online.png"
+    - "images/brands-groups.png"
+    - "images/brands-price.png"

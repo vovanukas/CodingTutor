@@ -1,0 +1,21 @@
+enabled: true
+id: "services"
+
+content:
+  title: "As easy as 1, 2, 3!"
+  text: "To start, book a free online class, try it out without worrying about committing. Or you can subscribe straight away and secure your space in our coding classes for kids. "
+  cards:
+    - image: "images/Try.png"
+      title: "Try out our lessons for FREE"
+      text: "You are welcome to try out our Python coding class for free or you can subscribe to secure your place now. Both parents and their kids are welcome to join for an hour of introduction to Python."
+
+
+    - image: "images/Learn.png"
+      title: "Learn in our weekly classes"
+      text: "Enroll in our weekly classes and learn alongside your friends! Just £50 per month, some might see them as cheap programming classes, we see them as great value! Tired or need a break - pause or cancel anytime!"
+
+
+    - image: "images/Earn.png"
+      title: "Earn completion certificates"
+      text: "Advance through levels and celebrate your achievements with our programming certificates. With our courses children go from coding beginners to creating complex programs in a fun and engaging learning environment."
+

@@ -1,39 +1,22 @@
----
-title: Fun learning with real professionals
-author: 
----
++++
+title = "About"
+description = "Codiblox is a digital skills educational platform, providing real coding experience, aimed at young students aged 7-16."
+aliases = ["about-us", "about"]
++++
 
-<h2>At codiblox we follow 3 simple rules:</h2>
+{{< figure src="/images/personal-photo.jpeg" width=100% >}}
 
-{{<columns widths="33% 33% 33%" align="center">}}
+# **Hi, my name is Vladimiras!**
 
-<center><h2>We work with real professionals</h2>
-<p>For our courses we employ true professionals, who have years of hands-on experience with the language they teach.</p>
-</center>
+I am a coding instructor and the founder of Codiblox. My journey into the world of technology and game development began with a deep-rooted fascination for crafting immersive games and digital experiences. Over the years, I've honed my skills as both a developer and an educator, driven by a mission to share the wonders of coding with eager learners of all ages.
 
-<--->
+As a coding instructor, I specialize in guiding students through the intricacies of programming languages such as Python, and the dynamic game development environments of Unity and Roblox. Through my engaging and interactive online classes, learners embark on a journey of discovery, unlocking the secrets of coding while unleashing their creativity to build captivating games and applications.
 
-<center><h2>We learn in a safe environment</h2>
-<p>To ensure the safety of our students, our tutors go through strict safeguarding training and lessons are monitored by safeguarding officers.</p>
-</center>
+With a blend of technical expertise and a passion for teaching, I strive to create a supportive and enriching learning environment where every student can thrive. Whether you're a beginner taking your first steps into the world of coding or an experienced developer looking to expand your skill set, my courses are designed to meet you where you are and propel you towards your goals.
 
-<--->
-<center><h2>We provide real experience</h2>
-<p>We created our course in a way that lets students work on real projects, tackling real issues. This enhances employability and confidence of our alumni.</p>
-</center>
-{{</columns>}}
+Are you ready to embark on an exciting coding adventure? Join me in exploring the endless possibilities of Python, Unity, and Roblox game development. Whether you're a budding programmer or a seasoned enthusiast, there's always something new to discover in the ever-evolving world of technology.
 
-<div class="separator"></div>
+Let's code, create, and innovate together!
 
-<center><h1>We are more than just a school</h1>
-<h2>We provide you with a personal support coach, who will be able to answer all of your questions about anything regarding technology, online communities and most importantly your child's progress.</h2>
 
-<h2>That way you can contact him at any point to ensure that you make informed decisions about your child's growth and development in this online world.</h2>
-</center>
-
-<div class="separator"></div>
-
-<center><h1>Want to learn more?</h1>
-<h2>Sign up for a free trial lesson/consultation call!</h2></center>
-
-<p align="center"><button type="button" onclick="window.location.href='/contact#trial';">Sign up for a FREE trial class!</button></p>
+[My Personal Website](https://vladimiras.com/)

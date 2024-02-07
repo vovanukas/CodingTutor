@@ -1,0 +1,28 @@
+enabled: true
+id: "portfolio"
+
+content:
+  - image: "images/knowledge-transparent.png"
+    pretitle: "Coding for Kids"
+    title: "A beginner friendly Python course"
+    text: "Discover a vibrant learning experience with our beginner-friendly Python course for kids aged 7-16. Dive into online coding classes focused on Python programming, creating an engaging environment for young learners. Our Python course is designed for beginners, offering structured online programming courses that cover Python coding essentials. Join our online coding classes for kids to embark on a journey of learning Python, earning Python certificates along the way. Enroll now to unlock the world of coding for your child with our dynamic and supportive Python course!"
+
+    buttons: 
+      - label: "Chat with us about starting Python!"
+        url: "https://go.crisp.chat/chat/embed/?website_id=fbb13c7f-f3ab-4b9e-b5bd-e6c72cdc2885"
+
+  - image: "images/roblox-transparent.png"
+    pretitle: "Starting in Games"
+    title: "Step into Game Dev with Roblox"
+    text: "Dive into a mesmerizing adventure in game creation with our captivating Roblox course. Join our online coding classes and embark on an exhilarating journey through the vibrant world of Roblox game development. Our beginner-friendly curriculum offers structured lessons that introduce aspiring developers to the essential tools and techniques needed to bring their imagination to life within the Roblox universe. With our expert guidance, students will learn to craft immersive gaming experiences, design interactive environments, and unleash their creativity through coding. Join our supportive community of learners and discover the joy of building and sharing games on Roblox."
+    buttons: 
+      - label: "Chat with us about starting Roblox!"
+        url: "https://go.crisp.chat/chat/embed/?website_id=fbb13c7f-f3ab-4b9e-b5bd-e6c72cdc2885"
+
+  - image: "images/unity-rounded-smaller.png"
+    pretitle: "Advanced Games Development"
+    title: "Master Unity, the Industry's Leading Game Engine"
+    text: "Embark on an exhilarating journey of creativity and innovation with our dynamic Unity course tailored for aspiring young game developers. Immerse your child in the captivating world of game design through our online coding classes, meticulously crafted to introduce beginners to the fundamentals of Unity programming. Our engaging curriculum ensures a vibrant learning experience, empowering students to explore Unity's powerful tools and unleash their imagination to create immersive gaming worlds. Join our online coding classes for kids and unlock the secrets of game development with structured lessons, hands-on projects, and expert guidance from experienced instructors."
+    buttons: 
+      - label: "Chat with us about starting Unity!"
+        url: "https://go.crisp.chat/chat/embed/?website_id=fbb13c7f-f3ab-4b9e-b5bd-e6c72cdc2885"

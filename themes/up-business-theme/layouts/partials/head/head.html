@@ -1,0 +1,33 @@
+<head>
+  <!-- Title -->
+  <title>{{ .Site.Title }} {{ with .Title }} | {{ . }} {{ end }}</title>
+
+  <!-- Meta -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{end}}" />
+
+  <!-- Favicons and Manifest -->
+  {{ partial "head/_favicons.html" . }}
+
+  <!-- SEO: Google Analytics -->
+  {{ partial "head/_seo.html" . }}
+
+  <!-- Stylesheets and Javascript -->
+  {{ partial "head/_resources.html" . }}
+
+  <!-- RSS -->
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+</head>
+
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="fbb13c7f-f3ab-4b9e-b5bd-e6c72cdc2885";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+<script type="text/javascript">
+  (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window, document, "clarity", "script", "gv1wbvga9p");
+</script>

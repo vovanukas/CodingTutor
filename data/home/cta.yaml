@@ -1,0 +1,9 @@
+enabled: true
+id: "cta"
+
+content:
+  title: "Start your learning journey now!"
+  image: "images/start-python-transparent.png"
+  button:
+    label: "Let's talk"
+    url: "https://go.crisp.chat/chat/embed/?website_id=fbb13c7f-f3ab-4b9e-b5bd-e6c72cdc2885"

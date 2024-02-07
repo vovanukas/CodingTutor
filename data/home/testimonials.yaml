@@ -1,0 +1,27 @@
+enabled: true
+id: "testimonials"
+
+content:
+  title: "Testimonials"
+
+  featured:
+    image: "images/testimonials2.png"
+    text: "Great school, my 10 year old son continues learning with excitement and is showing his development in knowledge. Big thanks to our tutor Vladimiras!"
+    client: "Mother of a happy 10 year old"
+    clientimage: "images/memoji-edited.png"
+
+  list:
+    - text: "We started coding right away so, although it was challenging, it wasn't boring! We started off with some simple drawings but then quickly progressed into cool games"
+      client: "Student, 13 years old."
+      clientimage: "images/memoji.png"
+      size: 70%
+
+    - text: "I like my teacher, I like our classes, I like that I can show off what we do to my friends! I hope to make games in the future and work for Minecraft!"
+      client: "Student, 9 years old."
+      clientimage: "images/memoji2.webp"
+      size: contain
+
+    - text: "The difference from when my child started the classes to his ability to code now is crazy. I like that they teach how to think like a programmer and tackle real problems. The language is great too, Python is widely used and it will help the kids develop professionally as well!"
+      client: "Father of a happy 10 year old."
+      clientimage: "images/memoji3.png"
+      size: contain

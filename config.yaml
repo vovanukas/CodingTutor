@@ -1,0 +1,69 @@
+baseURL: "https://www.codiblox.com/"
+theme: "up-business-theme"
+languageCode: "en-uk"
+
+title: "Codiblox"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Codiblox"
+  description: "Digital skills educational platform, providing real coding experience, aimed at young students aged 7-16."
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    instagram: "https://www.instagram.com/codiblox"
+    facebook: "https://www.facebook.com/codiblox"
+
+  location:
+    - "UK based, fully remote."
+
+  contact:
+    - "info@codiblox.com"
+
+  copyright: "© 2024 Codiblox All Rights Reserved"
+
+  postProcess: false
+
+menus:
+  main:
+    - name: "About"
+      url: "/about"
+      weight: 1
+      
+    - name: "Contact"
+      url: "/contact"
+      weight: 2
+
+  buttons:
+    - name: "Book a lesson"
+      url: "https://cal.com/vladimiras/python-taster"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "Contact"
+      url: "/contact"
+      weight: 2
+
+    - name: "About"
+      url: "/about"
+      weight: 3
+
+taxonomies:
+  series: "series"
+  tags: "tags"

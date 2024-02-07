@@ -1,0 +1,16 @@
+enabled: true
+id: "hero"
+
+content:
+  title: "**Future**-ready, coding **kids**!"
+  text: "We're dedicated to providing children with hands-on learning experience covering widely used programming languages - **Python, Lua and C#**. Reject block coding, embrace the limitless possibilities of real coding languages. \n\n 
+  Limited spaces are available, so hurry to secure yours!"
+
+  buttonPrimary:
+    label: "Subscribe"
+    url: "https://buy.stripe.com/aEU6s1fA1em00uscMN"
+
+  buttonSecondary:
+    label: "Learn More"
+    url: "/about"
+
