@@ -64,6 +64,10 @@ menus:
       url: "/about"
       weight: 3
 
+    - name: "Terms of Service"
+      url: "/terms-of-service"
+      weight: 3
+
 taxonomies:
   series: "series"
   tags: "tags"
